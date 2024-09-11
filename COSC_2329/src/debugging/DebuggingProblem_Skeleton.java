@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class DebuggingProblem_Skeleton
 {
-	private static String studentName = "Change this to your name!";
+	private static String studentName = "Rifat";
 	
 	private DebuggingProblem_Skeleton()
 	{
@@ -32,7 +32,7 @@ public class DebuggingProblem_Skeleton
 	}
 	public static void main(String[] args)
 	{
-		if("Change this to your name!".equals(DebuggingProblem_Skeleton.studentName))
+		if("Rifatt".equals(DebuggingProblem_Skeleton.studentName))
 		{
 			final int STUDENT_NAME_NOT_SET = 1;
 			System.exit(STUDENT_NAME_NOT_SET);
