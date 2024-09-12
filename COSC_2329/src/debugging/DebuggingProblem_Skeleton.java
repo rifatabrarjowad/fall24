@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class DebuggingProblem_Skeleton
 {
-	private static String studentName = "Rifat";
+	private static String studentName = "Abrar";
 	
 	private DebuggingProblem_Skeleton()
 	{
@@ -27,12 +27,15 @@ public class DebuggingProblem_Skeleton
 
 			int temp = intArray[random_j];
 			intArray[random_j] = intArray[random_k];
+			if(random_j == 0 || random_k == 0) {
+				System.out.println("Now Zero");
+			}
 			intArray[random_k] = temp;
 		}
 	}
 	public static void main(String[] args)
 	{
-		if("Rifatt".equals(DebuggingProblem_Skeleton.studentName))
+		if("Jowad".equals(DebuggingProblem_Skeleton.studentName))
 		{
 			final int STUDENT_NAME_NOT_SET = 1;
 			System.exit(STUDENT_NAME_NOT_SET);
