@@ -19,17 +19,16 @@ public class DebuggingProblem_Skeleton
 		long seed = name.hashCode();
 		Random random = new Random(seed);
 		
-		for(int i = 0; i < 100000; i--)
+		for(int i = 0; i < 100000; i++)
 		{
 			if(i % 1000 == 0) System.out.println("i = " + i);
 			int random_j = random.nextInt(intArray.length);
 			int random_k = random.nextInt(intArray.length);
-
-			int temp = intArray[random_j];
-			intArray[random_j] = intArray[random_k];
 			if(random_j == 0 || random_k == 0) {
 				System.out.println("Now Zero");
 			}
+			int temp = intArray[random_j];
+			intArray[random_j] = intArray[random_k];
 			intArray[random_k] = temp;
 		}
 	}
