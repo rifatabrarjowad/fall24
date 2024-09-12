@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    background-color: #0c0f27;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #251d3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e0b0ff;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #ffdfba;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccccff;
+}
+
+/* Links */
+a {
+    color: #9fbfdf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #444;
+    border-collapse: collapse;
+    color: #e0e0e0;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #555;
+}
+
+th {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 1.6rem;
+    color: #ffdfba;
+    margin-top: 40px;
+}
+
+/* Job Titles */
+section h3 {
+    font-size: 1.4rem;
+    color: #e0b0ff;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #251d3a;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Button or Interactive Styles */
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #ff4f41;
+}
