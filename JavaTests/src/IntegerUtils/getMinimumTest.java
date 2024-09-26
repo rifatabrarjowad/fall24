@@ -1,22 +1,21 @@
 package IntegerUtils;
 
-public class getMaximumTest {
-    public static int getMaximum(int[] numbers) {
+public class getMinimumTest {
+    public static int getMinimum(int[] numbers) {
         if (numbers == null || numbers.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty");
         }
 
-        int max = numbers[0];
+        int min = numbers[0];
         for (int num : numbers) {
-            if (num > max) {
-                max = num;
+            if (num < min) {
+                min = num;
             }
         }
-        return max;
+        return min;
     }
-
     public static void main(String[] args) {
         int[] array = {1, 17, -22, 48, 19};
-        System.out.println(getMaximum(array));  // Output: 48
+        System.out.println(getMinimum(array));  // Output: -22
     }
 }
