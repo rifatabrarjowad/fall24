@@ -1,13 +1,13 @@
 package IntegerUtils;
 
 public class getMinimumTest {
-    public static int getMinimum(int[] numbers) {
-        if (numbers == null || numbers.length == 0) {
+    public static int getMinimum(int[] intArray) {
+        if (intArray == null || intArray.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty");
         }
 
-        int min = numbers[0];
-        for (int num : numbers) {
+        int min = intArray[0];
+        for (int num : intArray) {
             if (num < min) {
                 min = num;
             }

@@ -1,0 +1,75 @@
+<!-- Homework 5 – COSC 2328 – Instructor Sewell -->
+<!-- Implemented by – Rifat Abrar Jowad -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup Form</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Signup Form</h1>
+
+    <form method="POST" action="/user-signup">
+        <!-- First Name Field -->
+        <div class="custom-field">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name">
+        </div>
+
+        <!-- Last Name Field -->
+        <div class="custom-field">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name">
+        </div>
+
+        <!-- Email Field -->
+        <div class="custom-field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <!-- State Selection -->
+        <div class="custom-field">
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="tx">Texas</option>
+                <option value="ca">California</option>
+                <option value="ny">New York</option>
+            </select>
+        </div>
+
+        <!-- Reason for Joining Field -->
+        <div class="custom-field">
+            <label for="reason">Reason for Joining:</label>
+            <textarea id="reason" name="reason"></textarea>
+        </div>
+
+        <!-- Agree to Terms Checkbox -->
+        <div class="custom-field">
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the terms</label>
+        </div>
+
+        <!-- Newsletter Frequency Radio Buttons -->
+        <div class="custom-field">
+            <p>Newsletter Frequency:</p>
+            <input type="radio" id="daily" name="frequency" value="daily">
+            <label for="daily">Daily</label>
+
+            <input type="radio" id="weekly" name="frequency" value="weekly">
+            <label for="weekly">Weekly</label>
+        </div>
+
+        <!-- Submit and Reset Buttons -->
+        <div class="custom-field">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* Style for the form */
+form {
+    width: 400px;
+    background-color: #d3e8ff; /* Light blue */
+    padding: 12px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each custom field div */
+.custom-field {
+    padding: 12px 0;
+    border-bottom: 1px solid #2b2b2b; /* Dark color for the border */
+}
+
+/* Style for inputs, select, and textarea */
+input, select, textarea {
+    width: 300px;
+    border: 1px solid #1e90ff; /* Border color blue */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Change border color when input fields are focused */
+input:focus, select:focus, textarea:focus {
+    border-color: #87cefa; /* Lighter blue when focused */
+    outline: none;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #006400; /* Dark green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the reset button */
+button[type="reset"] {
+    background-color: #ff4500; /* Dark orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+    background-color: #32cd32; /* Lighter green */
+    color: darkgreen;
+}
+
+/* Hover effect for reset button */
+button[type="reset"]:hover {
+    background-color: #ff6347; /* Lighter orange */
+    color: darkred;
+}
