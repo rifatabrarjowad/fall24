@@ -1,0 +1,72 @@
+/* Part 1: Learning about display and position */
+
+/* Style for .hello-msg */
+.hello-msg {
+    display: inline;
+    background-color: #ff9999; /* Shade of red */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* Style for .question */
+.question {
+    display: inline;
+    background-color: #99ff99; /* Shade of green */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* Style for .fun-msg */
+.fun-msg {
+    display: block;
+    background-color: #9999ff; /* Shade of blue */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Style for .where-msg */
+.where-msg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #cc99ff; /* Shade of purple */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Part 2: Flexbox Layout */
+
+/* Style for .my-layout */
+.my-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style for .my-content */
+.my-content {
+    width: 28%;
+    border: 1px solid darkred;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Part 3: Responsive Pages */
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .my-layout {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .my-content {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
