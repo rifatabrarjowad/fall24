@@ -1,0 +1,18 @@
+.products {
+    display: flex;
+}
+
+.product {
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.product.added {
+    background-color: #fff477;
+}
+
+.cart {
+    margin-top: 20px;
+    color: #ff7070;
+}
